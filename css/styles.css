@@ -10207,7 +10207,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(162, 210, 255, 0) 0%, rgba(162, 210, 255, 0.1) 75%, rgb(162, 210, 255) 100%), url("../img/reference_match_2.jpg");
+  background: linear-gradient(to bottom, rgba(162, 210, 255, 0) 0%, rgba(162, 210, 255, 0.1) 75%, rgb(162, 210, 255) 100%), url("../img/legacy/reference_match_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10261,7 +10261,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(162, 210, 255, 1) 0%, rgba(162, 210, 255, 1) 3%, rgb(8, 21, 32, 1) 4%, rgba(8, 21, 32, 0) 20%), url("../img/moon.jpg");
+  background: linear-gradient(to bottom, rgba(162, 210, 255, 1) 0%, rgba(162, 210, 255, 1) 3%, rgb(8, 21, 32, 1) 4%, rgba(8, 21, 32, 0) 20%), url("../img/legacy/moon.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10286,10 +10286,17 @@ body {
 .projects-section .featured-text {
   padding: 2rem;
 }
+.projects-section .featured-text-left {
+  padding: 2rem;
+}
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
+  }
+  .projects-section .featured-text-right {
+    padding: 0 2rem 0 0;
+    border-right: 0.5rem solid #64a19d;
   }
 }
 .projects-section .project-text {
@@ -10309,7 +10316,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../img/cloud_fog.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../img/legacy/cloud_fog.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
